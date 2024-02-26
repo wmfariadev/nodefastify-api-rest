@@ -1,0 +1,18 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Book {
+  id          String  @id @default(uuid()) @db.Uuid
+  title       String
+  author      String
+  description String? @db.Text
+  isFavorite  Boolean @default(false)
+  isReading   Boolean @default(false)
+  isFinished  Boolean @default(false)
+}
