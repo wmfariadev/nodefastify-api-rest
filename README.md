@@ -65,7 +65,7 @@ A API será iniciada e estará acessível em `http://localhost:8080`.
   - `isFinished` (boolean): Indica se o livro foi concluído.
 
 ## Estrutura de Pastas
-
+```
 ├── prisma/
 ├── src/
 │   ├── http/
@@ -76,3 +76,4 @@ A API será iniciada e estará acessível em `http://localhost:8080`.
 ├── .gitignore
 ├── package.json
 └── tsconfig.json
+```
