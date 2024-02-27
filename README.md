@@ -77,3 +77,5 @@ A API será iniciada e estará acessível em `http://localhost:8080`.
 ├── package.json
 └── tsconfig.json
 ```
+
+**Desenvolvido por [William Faria](https://github.com/wmfariadev)**
